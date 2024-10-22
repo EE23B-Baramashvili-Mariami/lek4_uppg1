@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('img/showcase.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: blue;
+    margin: 0;
+}
+
+/* Artikel div-styling */
+.artikel {
+    background-color: white;
+    opacity: 0.9;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.artikel h2 {
+    margin-bottom: 10px;
+}
+
+.artikel img {
+    max-width: 100px;
+}
+
+.artikel p {
+    font-size: 14px;
+    color: black;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: url('logo-html-css-js.png') no-repeat center;
+    background-size: contain;
+}
